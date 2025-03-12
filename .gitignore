@@ -6,6 +6,7 @@ node_modules/
 **/.env
 .env.local
 .env.*
+!.env.example
 
 # Build files
 /build
@@ -18,3 +19,7 @@ node_modules/
 # Logs
 *.log
 npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
